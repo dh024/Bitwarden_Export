@@ -144,7 +144,7 @@ then
     else
         echo 
         echo "Exporting organization vault to a password-encrypted file..."
-        bw export --organizationid $org_id --format encrypted_json --password $password1 --output $save_folderP@ssR3
+        bw export --organizationid $org_id --format encrypted_json --password $password1 --output $save_folder
     fi
 else
     echo
